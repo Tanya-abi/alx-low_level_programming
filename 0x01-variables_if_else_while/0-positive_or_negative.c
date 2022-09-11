@@ -6,7 +6,7 @@
 * main - print if the number stored in the variable n is positive or negative.
 *
 * Description: using the main function
-* program will assign a random number to the variable n each time it is executed
+* program will assign a random number to the variable n each time it's executed
 * Return: 0
 */
 int main(void)
