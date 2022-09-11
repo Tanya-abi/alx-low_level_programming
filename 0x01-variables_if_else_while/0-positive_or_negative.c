@@ -1,6 +1,6 @@
-#Include <stdlib.h>
-#Include <time.h>
-#Include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#nclude <stdio.h>
 
 /**
 * main -  print whether the number stored in the variable n is positive or negative.
