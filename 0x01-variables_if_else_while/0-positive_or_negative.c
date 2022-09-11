@@ -3,13 +3,13 @@
 #include <stdio.h>
 
 /**
-* main - print whether the number stored in the variable n is positive or negative.
+* main - print if the number stored in the variable n is positive or negative.
 *
 * Description: using the main function
-* This program will assign a random number to the variable n each time it is executed
+* program will assign a random number to the variable n each time it is executed
 * Return: 0
 */
-int main (void)
+int main(void)
 {
 int n;
 
