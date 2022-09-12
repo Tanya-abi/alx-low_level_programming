@@ -6,8 +6,7 @@
 * The two digits must be different
 * 01 and 10 are considered the same combination of the two digits 0 and 1
 * Print only the smallest combination of two digits
-* Numbers should be printed in ascending order, with two digits
-* You can only use the putchar function 
+* Numbers should be printed in ascending order, with two digits 
 * You can only use putchar five times maximum in your code
 * You are not allowed to use any variable of type char
 * Return: 0
@@ -23,8 +22,8 @@ int main(void)
 		while (y < 58)
 		{
 			putchar(x);
-		        putchar(y);
-			if (x == 56 && y == 57)
+			putchar(y);
+		       	if (x == 56 && y == 57)
 			{
 				y++;
 				break;
@@ -41,5 +40,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-		
-		
