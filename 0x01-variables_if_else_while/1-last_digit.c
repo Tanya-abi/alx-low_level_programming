@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-*main - print the last digit of the number stored in the variable n.
+* main - print the last digit of the number stored in the variable n.
 *
 * Description: using the main function
 * program will assign a random number to the variable n each time it's executed
@@ -20,7 +20,7 @@ l = n % 10;
 
 if (l > 5)
 {
-       printf("Last digit of %d is %d and is greater that 5\n ", n l);
+       printf("Last digit of %d is %d and is greater that 5\n", n, l);
 }
 else if (l == 0)
 {
