@@ -14,29 +14,32 @@
 */
 int main(void)
 {
-	int c = 0;
-	int f_d;
-	int l_d;
+	int x = 48;
+	int y;
 
-	while (c <= 99)
+	while (x < 58)
 	{
-		f_d = (c / 10 + '0');
-		l_d = (c % 10 + '0');
-
-		if (f_d < l_d)
+		y = x + 1;
+		while (y < 58)
 		{
-			putchar(f_d);
-			putchar(f_d);
-
-			if (c != 89)
+			putchar(x);
+		        putchar(y);
+			if (x == 56 && y == 57)
+			{
+				y++;
+				break;
+			}
+			else
 			{
 				putchar(',');
-				putchar(' ');
+			        putchar(' ');
+				y++;
 			}
 		}
-		c++;
+		x++;
 	}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
-
+		
+		
