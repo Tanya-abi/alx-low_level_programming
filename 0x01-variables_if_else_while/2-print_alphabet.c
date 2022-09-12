@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - prints the alphabet in lowercase, followed by a new line
+* main - prints the alphabet in lowercase,followed by a new line
 *
 * Description: use the putchar function
 * All your code should be in the main function
@@ -15,6 +15,6 @@ for (ch = 'a' ; ch <= 'z' ; ch++)
 {
 	putchar(ch);
 }
-putchar('/n');
+putchar('\n');
 return (0);
 }
