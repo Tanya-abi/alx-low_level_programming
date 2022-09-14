@@ -1,10 +1,10 @@
 #include "main.h"
 /**
 * main - prints 10 times the alphabet,in lowercase,followed by a new line
-* Description - utilise _putchar function
+* Description - Prototype: void print_alphabet_x10(void)
 * You can only use _putchar twice in your code
 */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	char c, i;
 
