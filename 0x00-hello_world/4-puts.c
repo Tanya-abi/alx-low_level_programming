@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - print the string in puts function
+ * main: main function serves as the starting point for program execution
  *
  * Description: utilising the main function
  * This program prints "Programming is like building a multilingual puzzle"
