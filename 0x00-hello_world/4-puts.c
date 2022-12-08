@@ -1,8 +1,8 @@
 #include <stdio.h>
 /*
- * main: main function serves as the starting point for program execution
+ * main - print the string in puts function
  *
- * Description: utilising the main function
+ * Description: utilising the main and puts function
  * This program prints "Programming is like building a multilingual puzzle"
  * Return 0
  */
