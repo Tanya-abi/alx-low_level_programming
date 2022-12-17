@@ -13,19 +13,35 @@
 
 int main(void)
 {
-	int i;
+	int num = 1;
 
-	for (i = 1; i <= 100; i++)
+	while (num++ < 100)
 	{
-		if (i % 15 == 0)
+		if ((num % 3 == 0) && (num % 5 == 0))
+		{
 			printf("FizzBuzz");
-		else if (i % 3 == 0)
+		}
+		else if ((num % 3) == 0)
+		{
 			printf("Fizz");
+		}
+		else if
+		{
+			if (num != 100)
+			{
+			print("Buzz ");
+			}
+			else
+			{
+				printf("Buzz");
+			}
+		}
 		else
-			printf("%i", i);
-		if (i < 100)
-			printf(" ");
+		{
+			printf("%d ", num);
+		}
 	}
 	printf("\n");
+
 	return (0);
 }
