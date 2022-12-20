@@ -1,19 +1,21 @@
 #include "main.h"
 
 /**
- * print_rev - Prints a string in reverse.
- * @s: string to be reserved.
+ * _strcpy - copies the string pointed to by src into dest
+ * @dest: destination
+ * @src: source
+ * Return: char with copy of string
  */
 
-void print_rev(char *s)
+char *_strcpy(char *dest, char *src)
 {
-	int len = 0, i;
+	int i;
 
-	while (s[i++])
-		len++;
+	for (i = 0; *(src + i) != '\0'; i++)
+	{
+		dest[i] = *(src + i);
+	}
+	dest[i] = '\0';
 
-	for (i = len - 1; i >= 0; i--)
-		_putchar(s[i]);
-
-	_putchar('\n');
+	return (dest);
 }
