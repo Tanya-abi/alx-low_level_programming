@@ -10,16 +10,19 @@
 
 void print_array(int *a, int n)
 {
-	int i, count;
+	int i, j, max;
 
 	i = 0;
-	for (n--; n >= 0; n--, i++)
+	while (str[i] != '\0')
 	{
-		printf("%d", a[i]);
-		if (n > 0)
-		{
-			printf(", ");
-		}
+		i++;
 	}
-	printf("\n");
+	max = i;
+	j = max / 2;
+	while (j <= max)
+	{
+		_putchar(str[j]);
+		j++;
+	}
+	_putchar('\n');
 }
