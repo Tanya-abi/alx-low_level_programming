@@ -1,4 +1,4 @@
-#iclude "main.h"
+#include "main.h"
 /**
  * _strlen - Returns the length of a string.
  * @str: string.
