@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * main - main block, solve fizz buzz from numbers 1 to 100
  * Description: Multiples of 3, print Fizz. Multiples of 5, print Buzz.
@@ -8,23 +8,24 @@
  */
 int main(void)
 {
+
 	for (int i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("FizzBuzz\n");
+			printf("FizzBuzz\t");
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Fizz\n");
+			printf("Fizz\t");
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz\n");
+			printf("Buzz\t");
 		}
 		else
 		{
-			printf("%d\n", i);
+			printf("%d\t", i);
 		}
 	}
 	return (0);
