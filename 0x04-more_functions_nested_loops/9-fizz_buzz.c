@@ -1,15 +1,19 @@
-#include "main.h"
 #include <stdio.h>
+
 /**
  * main - main block, solve fizz buzz from numbers 1 to 100
- * Description: Multiples of 3, print Fizz. Multiples of 5, print Buzz.
+ *
+ * Description: Multiples of 3, print Fizz. Multiples of 5, print Buzz
  * Multiples of both 3 and 5 should print FizzBuzz.
- * Return: 0
+ *
+ *  Return: 0
  */
-int main(void)
-{
 
-	for (int i = 1; i <= 100; i++)
+int main(void) {
+
+	int i = 1;
+
+	while ( i <= 100)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
@@ -27,6 +31,7 @@ int main(void)
 		{
 			printf("%d\t", i);
 		}
+		i++;
 	}
 	return (0);
 }
